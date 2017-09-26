@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		177090E81B400E0000ED6490 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 177090E31B400E0000ED6490 /* RECommonFunctions.h */; };
-		177090E91B400E0000ED6490 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 177090E41B400E0000ED6490 /* RECommonFunctions.m */; };
 		177090EA1B400E0000ED6490 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 177090E51B400E0000ED6490 /* RESideMenu.m */; };
 		177090EB1B400E0000ED6490 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 177090E61B400E0000ED6490 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		177090EC1B400E0000ED6490 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 177090E71B400E0000ED6490 /* UIViewController+RESideMenu.m */; };
@@ -16,8 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		177090E31B400E0000ED6490 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		177090E41B400E0000ED6490 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		177090E51B400E0000ED6490 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		177090E61B400E0000ED6490 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		177090E71B400E0000ED6490 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
@@ -56,8 +52,6 @@
 		17FEB6A41B400B5600E04564 /* RESideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				177090E31B400E0000ED6490 /* RECommonFunctions.h */,
-				177090E41B400E0000ED6490 /* RECommonFunctions.m */,
 				17FEB6A71B400B5600E04564 /* RESideMenu.h */,
 				177090E51B400E0000ED6490 /* RESideMenu.m */,
 				17FEB6A51B400B5600E04564 /* Supporting Files */,
@@ -82,7 +76,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177090E81B400E0000ED6490 /* RECommonFunctions.h in Headers */,
 				17FEB6A81B400B5600E04564 /* RESideMenu.h in Headers */,
 				177090EB1B400E0000ED6490 /* UIViewController+RESideMenu.h in Headers */,
 			);
@@ -157,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				177090EA1B400E0000ED6490 /* RESideMenu.m in Sources */,
-				177090E91B400E0000ED6490 /* RECommonFunctions.m in Sources */,
 				177090EC1B400E0000ED6490 /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
