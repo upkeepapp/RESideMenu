@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = 'RESideMenu-Mesago'
+  s.name        = 'RESideMenu'
   s.version     = '4.0.7'
   s.authors     = { 'Roman Efimov' => 'romefimov@gmail.com' }
   s.homepage    = 'https://github.com/romaonthego/RESideMenu'
